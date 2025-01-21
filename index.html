@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!-- Nota respecto a las dimensiones.
+Se ve algo vacio a la derecha de la pag, no obstante lo considere en menor tamaño de imagen,  similar al mockup -->
+
+<head>
+    <meta charset="UTF-8"> <!-- Codificacion de la pagina -->
+    <title>Firma electronica - Cristian Peña</title> <!-- Titulo de la pagina -->
+    <!-- <style> <style> opcion no tan recomendada 2-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Enlace a la fuente de google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> <!-- Enlace a la hoja de estilos más recomendada -->
+</head>
+
+<body>
+    <!-- <img src="Img/Fondo firma web.png" alt=""> -->
+    <!-- Presentacion -->
+    <div class="Presentacion">
+        <h1>Cristian Peña Villar</h1>
+        <h2>Ingeniero en desarrollo de videojuegos y realidad virtual</h2>
+    </div>
+    <!-- Fin Presentacion -->
+    <!-- Datos contacto-->
+    <!-- display flex para alinear elementos horizontalmente y align-items para centrar verticalmente -->
+    <div class="Datos" style="display: flex; align-items: center;">
+        <!-- Imagen de perfil -->
+        <div id="perfil">
+            <img src="./Img/Perfil.png" alt="Perfil" width="250" style="margin-right: 20px;">
+        </div>
+        <div id="info">
+            <table>
+                <!-- correo -->
+                <tr>
+                    <td><img src="./Img/Icons/email.png" alt="correo electronico" width="40" height="40"> </td>
+                    <td>
+                        <h3>cristian.penavillar@gmail.com</h3>
+                    </td>
+
+                </tr>
+                <!-- phone -->
+                <tr>
+                    <td><img src="./Img/Icons/phone-call.png" alt="phone" width="40" height="40"> </td>
+                    <td>
+                        <h3>(56) 968687066</h3>
+                    </td>
+                </tr>
+                <!-- map -->
+                <tr>
+                    <td><img src="./Img/Icons/pin.png" alt="direction" width="40" height="40"> </td>
+                    <td>
+                        <h3>Villa Alegre, Maule, Chile</h3>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!-- Fin Datos contacto-->
+    <!-- Redes sociales-->
+
+    <div class="SocialMedia" style="display: flex; justify-content: flex-start;">
+        <img src="./Img/Icons/linkedin.png" alt="linkedin" width="50" style="margin-right: 40px;">
+        <img src="./Img/Icons/twitch.png" alt="twitch" width="50">
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+body
+{
+    background-color: white;
+    color: black;
+    font: 200 14px Poppins, sans-serif;
+
+    background-image: url("Img/Fondo\ firma\ web.png");
+    min-width: 1400px;
+    max-width: fit-content; 
+    min-height: 500px;
+    max-height: fit-content
+}
+
+h1
+{
+    font-size: 36px;
+    margin: auto;
+}
+
+h2
+{
+    font-size: 22px;
+    font-weight: 300;
+    margin: auto;
+}
+
+/*Hago separacion con h3 para los th, ya que no es un script largo, con lo cual me doy esa libertad*/
+h3
+{
+    padding-left: 16px;
+    font-weight: 300;
+    text-align: left;
+}
+
+#perfil
+{
+    border-bottom: 3px solid cyan;
+}
+
+#info
+{
+    padding-left: 30px;
+
+}
+
+.Presentacion
+{
+    padding-left:305px;
+    border-bottom: 5px solid purple;
+}
+
+
+.SocialMedia
+{
+    padding-top: 20px;
+    padding-left: 325px;
+}
